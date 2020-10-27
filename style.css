@@ -1,0 +1,124 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family:  "Trebuchet MS", Helvetica, sans-serif;
+  background: #ccc;
+  line-height: 1.2; }
+
+nav {
+  padding: 10px;
+}
+nav input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+nav input[type=submit] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+nav input[type=submit]:hover {
+  border: 2px solid black;
+}
+article {
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(82, 85, 83); 
+  color: rgb(31, 31, 31);
+  transition: background-color 1s ease-in-out;
+}
+article:hover, nav input[type=submit]:hover  {
+    background:rgb(108, 109, 107);
+    /* background: linear-gradient(180deg, rgba(108,109,107,1) 0%, rgba(82,85,83,1) 100%); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#a0 {
+  margin-bottom: 12px;
+}
+#a, #a0 {
+  border: 2px solid hsl(0,30%, 50%);
+}
+#b {
+  border: 2px solid hsl(20,30%, 50%);
+}
+#c {
+  border: 2px solid hsl(40,30%, 50%);
+}
+#d {
+  border: 2px solid hsl(60,30%, 50%);
+}
+#e {
+  border: 2px solid hsl(80,30%, 50%);
+}
+#f {
+  border: 2px solid hsl(100,30%, 50%);
+}
+#g {
+  border: 2px solid hsl(120,30%, 50%);
+}
+#h {
+  border: 2px solid hsl(140,30%, 50%);
+}
+#i {
+  border: 2px solid hsl(160,30%, 50%);
+}
+#j {
+  border: 2px solid hsl(180,30%, 50%);
+}
+#k {
+  border: 2px solid hsl(200,30%, 50%);
+}
+#l {
+  border: 2px solid hsl(220,30%, 50%);
+}
+#m {
+  border: 2px solid hsl(240,30%, 50%);
+}
+#n {
+  border: 2px solid hsl(260,30%, 50%);
+}
+#o {
+  border: 2px solid hsl(280,30%, 50%);
+}
+#p {
+  border: 2px solid hsl(300,30%, 50%);
+}
+#q {
+  border: 2px solid hsl(320,30%, 50%);
+}
+#r {
+  border: 2px solid hsl(340,30%, 50%);
+}
+#s {
+  border: 2px solid hsl(0,30%, 50%);
+}
+#t {
+  border: 2px solid hsl(20,30%, 50%);
+}
+header {
+  margin-top: auto; 
+  padding: 0.5rem;
+  background-color:  rgb(104, 104, 104);
+  color:white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 110%;
+}
+a:link,
+a:visited {
+  color: white;}
+
+#container article {
+  margin-bottom: 1rem; 
+  width: 230px;
+}
+    li {
+      list-style-type: none;
+      margin: 2px;
+      padding: 2px;
+    } 
